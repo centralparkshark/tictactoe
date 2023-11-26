@@ -7,7 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div></div>
+    <h1>Tic Tac Toe</h1>
+    <div class="gameBoard">
+        <div class="square" id="zero" x="0" y="0"></div>
+        <div class="square" id="one" x="0" y="1"></div>
+        <div class="square" id="two" x="0" y="2"></div>
+        <div class="square" id="three" x="1" y="0"></div>
+        <div class="square" id="four" x="1" y="1"></div>
+        <div class="square" id="five" x="1" y="2"></div>
+        <div class="square" id="six" x="2" y="0"></div>
+        <div class="square" id="seven" x="2" y="1"></div>
+        <div class="square" id="eight"x="2" y="2"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="grayed" id="grayed"></div>
+    <button id="newGame">New Game</button>
+    <div class="popup" id="popup1">
+        <label for="name1">Player 1 Name:</label>
+        <input type="text" id="name1">
+        <div id="pieceSelect">
+            <div class="x" id="piece1">X</div>
+            <div class="o" id="piece1">O</div>
+        </div>
+        <button class="ok" id="ok1">OK</button>
+    </div>
+    <div class="popup" id="popup2">
+        <label for="name2">Player 2 Name:</label>
+        <input type="text" id="name2">
+        <div id="pieceSelect">
+            <div class="x" id="piece2">X</div>
+            <div class="o" id="piece2">O</div>
+        </div>
+        <button class="ok" id="ok2">OK</button>
+    </div>
+
+
+
+
     <script src="ttt.js"></script>
 </body>
 </html>
